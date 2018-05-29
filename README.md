@@ -48,6 +48,19 @@ Install aglio via NPM. You need Node.js installed and you may need to use `sudo`
 npm install -g aglio
 ```
 
+if you don't have npm you must [install npm](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-16-04)  first.
+```bash
+sudo apt-get update
+sudo apt-get install nodejs
+sudo apt-get install npm
+```
+if you get [error](https://github.com/danielgtaylor/aglio/issues/264) when install aglio you need to install nodejs-legacy.
+```bash
+sudo apt install nodejs-legacy
+```
+then install aglio again
+
+
 Then, start generating HTML.
 
 ```bash
